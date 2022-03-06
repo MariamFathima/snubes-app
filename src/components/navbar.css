@@ -1,0 +1,43 @@
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: 0 1px 0 rgba(0,0,0,.05);
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1000;
+    height: 60px;
+}
+.nav-inner{
+    min-width: 80%;
+    margin: 0 auto;
+}
+
+.nav-links{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+.nav-links > a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #7f7f7f;
+    margin-right: 20px;
+}
+
+.logo{
+    display: inline-block;
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .form-center > h4{
+        margin-bottom: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+}
+    
